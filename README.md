@@ -1,5 +1,5 @@
-# Afterglow Like
-###### An Atom Syntax Theme - [Atom.io](https://atom.io/packages/afterglow-like) : [Github](https://github.com/dsandstrom/atom-afterglow-like-syntax)
+# Afterglow Syntax
+###### An Atom Syntax Theme - [Atom.io](https://atom.io/packages/afterglow-syntax) : [Github](https://github.com/dsandstrom/atom-afterglow-syntax)
 
 A minimal dark syntax theme converted from [Afterglow](https://github.com/YabataDesign/afterglow-theme) (Sublime Text). The syntax color scheme is mostly derived from [idlefingers](http://idlefingers.co.uk/).
 
