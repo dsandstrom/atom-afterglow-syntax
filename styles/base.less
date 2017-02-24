@@ -167,7 +167,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
 }
 
 .syntax--keyword.syntax--control.syntax--html.syntax--elements {
-  color: #e5b567;
+  color: @equator;
 }
 
 .syntax--meta.syntax--attribute-selector.syntax--css {
@@ -196,4 +196,27 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
 
 .syntax--markup.syntax--untracked.syntax--git_gutter {
   color: @iron;
+}
+
+// angular colors
+
+.syntax--keyword.control.js,
+.syntax--keyword.operator.js,
+.syntax--meta.syntax--tag.syntax--template.syntax--angular .syntax--keyword.operator.js {
+  color: @wild-willow;
+  font-weight: bold;
+}
+
+.syntax--meta.syntax--tag.syntax--template.syntax--angular {
+  color: @coral-tree;
+}
+
+.syntax--meta.syntax--tag.syntax--template.syntax--angular .punctuation.definition.block.begin.syntax--angular,
+.syntax--meta.syntax--tag.syntax--template.syntax--angular .punctuation.definition.block.end.syntax--angular,
+.syntax--meta.syntax--tag.syntax--template.syntax--angular .syntax--meta.brace.curly.js  {
+  color: @ship-cove;
+}
+
+.syntax--meta.attribute.html.syntax--angular .entity.other.attribute-name.html.syntax--angular {
+  color: @periwinkle;
 }
