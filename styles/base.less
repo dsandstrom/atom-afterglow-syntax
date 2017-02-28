@@ -46,6 +46,11 @@ atom-text-editor.is-focused .cursor{
   border-color: @syntax-cursor-color;
 }
 
+// unfocused window selection
+atom-text-editor .selection .region {
+  background-color: @syntax-selection-color-unfocused;
+}
+
 atom-text-editor.is-focused .selection .region {
   background-color: @syntax-selection-color;
 }
