@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.5.0
+*2017-2-28*
+* Add background color to selection when editor unfocused
+
 ### 0.4.0
 *2017-2-24*
 * Fix angular style deprecations
