@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.6.0
+*2017-3-8*
+* Fix find-replace flash color and lighten inactive border color
+
 ### 0.5.0
 *2017-2-28*
 * Add background color to selection when editor unfocused
