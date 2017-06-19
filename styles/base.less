@@ -63,6 +63,27 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
   background-color: @oil;
 }
 
+atom-text-editor {
+  // move highlights above cursor line
+  .spell-check-misspelling,
+  .linter-highlight {
+    .region {
+      z-index: 1;
+    }
+  }
+
+  // move gutter decorations above cursor line
+  &.editor .linter-highlight {
+    &.linter-info,
+    &.linter-warning,
+    &.linter-error {
+      &.linter-gutter {
+        z-index: 1;
+      }
+    }
+  }
+}
+
 .syntax--entity.syntax--other.syntax--attribute-name {
   color: @brandy-punch;
 }
@@ -71,7 +92,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
   color: @monsoon;
 }
 
-.syntax--keyword, .syntax--storage {
+.syntax--keyword,
+.syntax--storage {
   color: @raw-sienna;
 }
 
@@ -79,7 +101,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
   color: @coral-tree;
 }
 
-.syntax--entity.syntax--name.syntax--function, .syntax--keyword.syntax--other.syntax--name-of-parameter.syntax--objc {
+.syntax--entity.syntax--name.syntax--function,
+.syntax--keyword.syntax--other.syntax--name-of-parameter.syntax--objc {
   color: @koromiko;
 }
 
@@ -91,7 +114,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
   color: @wild-willow;
 }
 
-.syntax--variable.syntax--language, .syntax--variable.syntax--other {
+.syntax--variable.syntax--language,
+.syntax--variable.syntax--other {
   color: @periwinkle;
 }
 
@@ -123,7 +147,9 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
   color: @wild-willow;
 }
 
-.syntax--meta.syntax--tag, .syntax--declaration.syntax--tag, .syntax--entity.syntax--name.syntax--tag {
+.syntax--meta.syntax--tag,
+.syntax--declaration.syntax--tag,
+.syntax--entity.syntax--name.syntax--tag {
   color: @rob-roy;
 }
 
@@ -132,7 +158,10 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
   background-color: @red-berry;
 }
 
-.syntax--constant.syntax--character.syntax--escaped, .syntax--constant.syntax--character.syntax--escape, .syntax--string .syntax--source, .syntax--string .syntax--source.syntax--ruby {
+.syntax--constant.syntax--character.syntax--escaped,
+.syntax--constant.syntax--character.syntax--escape,
+.syntax--string .syntax--source,
+.syntax--string .syntax--source.syntax--ruby {
   color: @coral-tree;
 }
 
@@ -146,7 +175,10 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection {
   background-color: @lonestar;
 }
 
-.syntax--meta.syntax--diff.syntax--header, .syntax--meta.syntax--separator.syntax--diff, .syntax--meta.syntax--diff.syntax--index, .syntax--meta.syntax--diff.syntax--range {
+.syntax--meta.syntax--diff.syntax--header,
+.syntax--meta.syntax--separator.syntax--diff,
+.syntax--meta.syntax--diff.syntax--index,
+.syntax--meta.syntax--diff.syntax--range {
   background-color: @govenor-bay;
 }
 
