@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.0.0
+*2017-6-20*
+* Move cursor line background under linter decorations and spell check
+
 ### 0.6.0
 *2017-3-8*
 * Fix find-replace flash color and lighten inactive border color
