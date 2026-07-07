@@ -1,8 +1,8 @@
 {
-  "name": "afterglow-syntax",
+  "name": "afterglow-pulsar-syntax",
   "theme": "syntax",
   "version": "1.0.0",
-  "description": "Minimal dark theme derived from idlefingers.",
+  "description": "Minimal dark theme based on a Sublime Text theme.",
   "repository": "https://github.com/dsandstrom/atom-afterglow-syntax",
   "license": "MIT",
   "engines": {
